@@ -137,7 +137,7 @@ public class ApplyDao {
 				
 				rs = ps.executeQuery();
 				
-				List<Application> list = new ArrayList<>();
+				List<Application> list = new ArrayList<Application>();
 				while (rs.next()) {
 					Application application = new Application(userId);
 					
